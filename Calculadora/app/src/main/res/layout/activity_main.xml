@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="50pt"
         android:background="#b7b7b7"
-        android:textSize="100dp"
+        android:textSize="80sp"
         android:textStyle="bold"
         android:textAlignment="viewEnd"
         android:layout_alignParentRight="true"
@@ -33,7 +33,8 @@
         android:layout_below="@+id/RESULTSCREEN"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="40pt"
@@ -43,7 +44,8 @@
         android:layout_alignTop="@+id/button7"
         android:layout_toRightOf="@+id/button7"
         android:layout_toEndOf="@+id/button7"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="40pt"
@@ -53,7 +55,8 @@
         android:layout_alignTop="@+id/button8"
         android:layout_toRightOf="@+id/button8"
         android:layout_toEndOf="@+id/button8"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -64,7 +67,8 @@
         android:layout_alignBottom="@+id/button9"
         android:layout_toRightOf="@+id/button9"
         android:layout_toEndOf="@+id/button6"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -76,7 +80,8 @@
         android:layout_below="@+id/button7"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -87,7 +92,8 @@
         android:layout_alignBottom="@+id/button4"
         android:layout_toRightOf="@+id/button4"
         android:layout_toEndOf="@+id/button4"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -98,7 +104,8 @@
         android:layout_alignBottom="@+id/button5"
         android:layout_toRightOf="@+id/button5"
         android:layout_toEndOf="@+id/button5"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -109,7 +116,8 @@
         android:layout_alignBottom="@+id/button6"
         android:layout_toRightOf="@+id/button6"
         android:layout_toEndOf="@+id/button6"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -121,7 +129,8 @@
         android:layout_below="@+id/button4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -132,7 +141,8 @@
         android:layout_alignBottom="@+id/button1"
         android:layout_toRightOf="@+id/button1"
         android:layout_toEndOf="@+id/button1"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -143,7 +153,8 @@
         android:layout_alignBottom="@+id/button2"
         android:layout_alignLeft="@+id/button6"
         android:layout_alignStart="@+id/button6"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -154,7 +165,8 @@
         android:layout_alignBottom="@+id/button3"
         android:layout_toRightOf="@+id/button3"
         android:layout_toEndOf="@+id/button3"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -166,7 +178,8 @@
         android:layout_below="@+id/button1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -177,7 +190,8 @@
         android:layout_alignBottom="@+id/button0"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -188,7 +202,8 @@
         android:layout_alignBottom="@+id/buttonLimpar"
         android:layout_alignLeft="@+id/button3"
         android:layout_alignStart="@+id/button3"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -199,6 +214,7 @@
         android:clickable="true"
         android:layout_alignTop="@+id/buttonigual"
         android:layout_alignLeft="@+id/buttonsub"
-        android:layout_alignStart="@+id/buttonsub" />
+        android:layout_alignStart="@+id/buttonsub"
+        android:onClick="onClick" />
 
 </RelativeLayout>
